@@ -1,4 +1,4 @@
-app.factory('forecast', ['$http', function($http) {
+app.factory('quran', ['$http', function($http) {
 	return $http.get('../../quran.json')
   	.success(function(data) {
   		return data;
