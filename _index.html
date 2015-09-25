@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 
     <!-- Include the AngularJS library -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <script src="js/shared/angular.min.js"></script>
   </head>
   <body ng-app="ForecastApp">
 
@@ -14,32 +14,24 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-sm-offset-7">
-            <h1>{{ fiveDay.city_name }}</h1>
-            <h2>5-day forecast</h2>
-            <div class="forecast" ng-repeat="day in fiveDay.days">
+            <h1>{{ fiveDay.theName }}</h1>
+            <h3>Al-Islam</h3>
+            <div class="forecast" ng-repeat="detail in fiveDay.theDetails">
               <div class="day row">
 
                 <!-- datetime -->
-                <div class="weekday col-xs-4">
-									{{day.datetime | date}}
+                <div class="col-md-2">
+                  {{detail.aya}}
                 </div>
-
-                <!-- icon -->
-                <div class="weather col-xs-3">
-                  <img ng-src="{{day.icon}}">
-                </div>
-
-                <div class="col-xs-1"></div>
 
                 <!-- high -->
-                <div class="high col-xs-2">
-									{{day.high}}
-
+                <div class="col-md-4">
+                  {{detail.text}}
                 </div>
 
                 <!-- low -->
-                <div class="low col-xs-2">
-								{{day.low}}
+                <div class="col-md-6">
+                 {{detail.text_trans}}
                 </div>
               </div>
             </div>

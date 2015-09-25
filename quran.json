@@ -1,0 +1,89 @@
+{
+  "theName": "Holy Quran",
+  "theDetails": [
+      {
+        "0": "1",
+        "index": "1",
+        "1": "0",
+        "sura": "0",
+        "2": "1",
+        "aya": "1",
+        "3": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "4": "In the name of Allah, the Gracious, the Merciful.",
+        "text_trans": "In the name of Allah, the Gracious, the Merciful."
+      },
+      {
+        "0": "2",
+        "index": "2",
+        "1": "1",
+        "sura": "1",
+        "2": "1",
+        "aya": "1",
+        "3": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "4": "All praise belongs to Allah, Lord of all the worlds,",
+        "text_trans": "All praise belongs to Allah, Lord of all the worlds,"
+      },
+      {
+        "0": "3",
+        "index": "3",
+        "1": "1",
+        "sura": "1",
+        "2": "2",
+        "aya": "2",
+        "3": "الرَّحْمَٰنِ الرَّحِيمِ",
+        "text": "الرَّحْمَٰنِ الرَّحِيمِ",
+        "4": "The Gracious, the Merciful,",
+        "text_trans": "The Gracious, the Merciful,"
+      },
+      {
+        "0": "4",
+        "index": "4",
+        "1": "1",
+        "sura": "1",
+        "2": "3",
+        "aya": "3",
+        "3": "مَالِكِ يَوْمِ الدِّينِ",
+        "text": "مَالِكِ يَوْمِ الدِّينِ",
+        "4": "Master of the Day of Judgment.",
+        "text_trans": "Master of the Day of Judgment."
+      },
+      {
+        "0": "5",
+        "index": "5",
+        "1": "1",
+        "sura": "1",
+        "2": "4",
+        "aya": "4",
+        "3": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "4": "Thee alone do we worship and Thee alone do we implore for help.",
+        "text_trans": "Thee alone do we worship and Thee alone do we implore for help."
+      },
+      {
+        "0": "6",
+        "index": "6",
+        "1": "1",
+        "sura": "1",
+        "2": "5",
+        "aya": "5",
+        "3": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+        "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+        "4": "Guide us in the right path —",
+        "text_trans": "Guide us in the right path —"
+      },
+      {
+        "0": "7",
+        "index": "7",
+        "1": "1",
+        "sura": "1",
+        "2": "6",
+        "aya": "6",
+        "3": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "4": "The path of those on whom Thou hast bestowed Thy blessings, those who have not incurred Thy displeasure, and those who have not gone astray.",
+        "text_trans": "The path of those on whom Thou hast bestowed Thy blessings, those who have not incurred Thy displeasure, and those who have not gone astray."
+      }
+ ]
+}
