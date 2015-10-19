@@ -1,130 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50296b0b-ef6a-4c3f-8959-5b9bd8f946ec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/angularicons/angularicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/angularicons/angularicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/angularicons/angularicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/angularicons/angularicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/css/bootflat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/css/bootflat.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/css/bootflat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/img/check_flat/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/img/check_flat/default.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/js/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/js/jquery.fs.selecter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/js/jquery.fs.stepper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_accordion.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_button_group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_calendar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_checkbox_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_label_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_media_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_pager.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_pill.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_pricing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_selecter.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_stepper.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_tab.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_thumbnail.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_timeline.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bootflat/scss/bootflat/_well.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-blue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-gray.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-green.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-pink.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-purple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-red.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker-yellow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/color-picker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/css/site.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/favicon_16.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/free-psd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/google45b338b882fada75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/Jumbotron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/ascii-logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/bootflat-ui-kit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/design.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/fast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/feature-bootstrap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/feature-css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/feature-lightweight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/feature-mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/footer-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/logo-index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/photo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/photo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/photo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/photo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/prototyping.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/share.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/thumbnail-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/thumbnail-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/thumbnail-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/thumbnail-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/together.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/img/wild_flowers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/jquery-1.10.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/site.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/js/site.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootflat/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularApp/js/services/forecast.js" afterPath="$PROJECT_DIR$/AngularApp/js/services/forecast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularApp/js/services/quran.js" afterPath="$PROJECT_DIR$/AngularApp/js/services/quran.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-    </list>
+    <list default="true" id="50296b0b-ef6a-4c3f-8959-5b9bd8f946ec" name="Default" comment="" />
     <ignored path="hasahmad.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -648,16 +525,16 @@
       <option name="number" value="Default" />
       <updated>1443640584317</updated>
       <workItem from="1443640586618" duration="1673000" />
-      <workItem from="1445265840391" duration="3650000" />
+      <workItem from="1445265840391" duration="3826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5323000" />
+    <option name="totallyTimeSpent" value="5499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -674,7 +551,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
