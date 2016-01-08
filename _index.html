@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Check your Mayar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://hasahmad.github.io/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://hasahmad.github.io/datepicker/css/datepicker.css">
+        <style type="text/css">
+          body {
+            background: #f4f4f4;
+            font-family: "Arial", sans-serif;
+            font-size: 14px;
+            color: #666;
+          }
+          #container {
+            width: 800px;
+            overflow: auto;
+            background: #fff;
+            padding: 15px;
+            margin: 10px;
+            align: middle;
+          }
+          #theContainer {
+            background: #fff;
+            border-right: 5px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+          }
+          #theContent{
+            display:none;
+          }
+        </style>
+    </head>
+<body>
+  <div class="container-fluid">
+    <!-- <h1 id="container">Check your Mayar</h1> -->
+    <!-- <h1>Check your Mayar</h1> -->  
+    <div class="well">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Birthday: </label>
+          <input type="text" class="span2 form-control" id="dp1" value="2000-11-01" />
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="checkAge()">Check Mayar</button>
+      </form>
+    </div>
+    <pre id="theContent"><h4 id="demo"></h4></pre>        
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </div>
+    
+    <script src="http://hasahmad.github.io/js/prettify.js"></script>
+    <script src="http://hasahmad.github.io/js/jquery.js"></script>
+    <script src="http://hasahmad.github.io/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://hasahmad.github.io/datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="js/date-defaults.js"></script>
+</body>
+    
+</html>
