@@ -1,3 +1,8 @@
+// $(function() {
+//   $( "#thedatepicker" ).datepicker();
+// });
+
+document.getElementById('demo').style.height="200px";
 function checkAge() {
   // $("#theContent").hide().show('medium');
     var text;
@@ -25,13 +30,13 @@ function checkAge() {
         text = "You are in Mayār Kabīr";
         break;
       case(mayar_1 >= oct_1):
-        text = "You are not a Tifal yet!";
+        text = "You are not a Tifl yet!";
         break;
       case(mayar_1 <= nov_3):
         text = "You are a Khadim.";
         break;  
       default:
-        text = "You are not a Tifal!";
+        text = "You are not a Tifl!";
     }
 
     document.getElementById("demo").innerHTML = text;
