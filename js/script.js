@@ -10,12 +10,12 @@ function checkAge() {
     var theDate = document.getElementById("dp1").value;
 
     var mayar_1 = new Date(theDate);
-    var nov_1 = new Date('2006-11-01');
-    var nov_2 = new Date('2003-11-01');
-    var nov_3 = new Date('2000-11-01');
-    var oct_1 = new Date('2008-10-31');
-    var oct_2 = new Date('2006-10-31');
-    var oct_3 = new Date('2003-10-31');
+    var nov_1 = new Date('2007-11-01');
+    var nov_2 = new Date('2004-11-01');
+    var nov_3 = new Date('2001-11-01');
+    var oct_1 = new Date('2009-10-31');
+    var oct_2 = new Date('2007-10-31');
+    var oct_3 = new Date('2004-10-31');
 
     mayar_1 = mayar_1.getTime();
     
