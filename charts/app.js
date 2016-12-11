@@ -188,24 +188,32 @@ $(function() {
 		var chart = new google.visualization.PieChart(document.getElementById('piechart4'));
 		chart.draw(data, options);
 	}
+
+	$(window).resize(function(){
+		drawWorldMap();
+		drawPieChart1();
+		drawPieChart2();
+		drawPieChart3();
+		drawPieChart4();
+	});
 });
 
 
 
 function usersSummary(data) {
-		var resultCount = {};
-		for(var i = 0; i < data.length; i++){
-			for(var item in data[i]){
-				if(!resultCount[item]){
-					resultCount[item] = {};
-				}
-
-				if(!resultCount[item][data[i][item]]){
-					resultCount[item][data[i][item]] = 0;
-				}
-
-				resultCount[item][data[i][item]]++;
+	var resultCount = {};
+	for(var i = 0; i < data.length; i++){
+		for(var item in data[i]){
+			if(!resultCount[item]){
+				resultCount[item] = {};
 			}
+
+			if(!resultCount[item][data[i][item]]){
+				resultCount[item][data[i][item]] = 0;
+			}
+
+			resultCount[item][data[i][item]]++;
 		}
-		return resultCount;
 	}
+	return resultCount;
+}
