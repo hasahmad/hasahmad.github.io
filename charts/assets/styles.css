@@ -1,0 +1,15 @@
+.panel {
+	-moz-box-shadow: 0 0 2px black;
+	-webkit-box-shadow: 0 0 2px black;
+	box-shadow: 0 0 2px black;
+}
+
+.chartTitle {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: -20px;
+}
+
+.panel {
+	text-align: center;
+}
