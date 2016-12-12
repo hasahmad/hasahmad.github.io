@@ -5,21 +5,24 @@ $(function() {
 			"country": "Canada",
 			"age": "15",
 			"ethnicity": "African",
-			"gender": "male"
+			"gender": "male",
+			"acceptedIslam": "Convert/Revert"
 		},
 		{
 			"username": "user2",
 			"country": "Russia",
 			"age": "19",
 			"ethnicity": "Russian",
-			"gender": "female"
+			"gender": "female",
+			"acceptedIslam": "Convert/Revert"
 		},
 		{
 			"username": "user3",
 			"country": "Germany",
 			"age": "17",
 			"ethnicity": "German",
-			"gender": "undisclosed"
+			"gender": "undisclosed",
+			"acceptedIslam": "Convert/Revert"
 		},
 		{
 			"username": "user4",
@@ -33,35 +36,40 @@ $(function() {
 			"country": "United States",
 			"age": "12",
 			"ethnicity": "Pakistani",
-			"gender": "undisclosed"
+			"gender": "undisclosed",
+			"acceptedIslam": "Undisclosed"
 		},
 		{
 			"username": "user5",
 			"country": "Pakistan",
 			"age": "18",
 			"ethnicity": "Pakistani",
-			"gender": "female"
+			"gender": "female",
+			"acceptedIslam": "Born in Islam"
 		},
 		{
 			"username": "user6",
 			"country": "United Kingdom",
 			"age": "22",
 			"ethnicity": "African",
-			"gender": "male"
+			"gender": "male",
+			"acceptedIslam": "Born in Islam"
 		},
 		{
 			"username": "user8",
 			"country": "United Kingdom",
 			"age": "22",
 			"ethnicity": "African",
-			"gender": "male"
+			"gender": "male",
+			"acceptedIslam": "Born in Islam"
 		},
 		{
 			"username": "user7",
 			"country": "United Kingdom",
 			"age": "22",
 			"ethnicity": "African",
-			"gender": "male"
+			"gender": "male",
+			"acceptedIslam": "Born in Islam"
 		}		
 	];
 
@@ -77,6 +85,9 @@ $(function() {
 		return [[index, value]];
 	});
 	var age = $.map(summary.age, function(value, index) {
+		return [[index, value]];
+	});
+	var newtoIslam = $.map(summary.acceptedIslam, function(value, index) {
 		return [[index, value]];
 	});
 	
@@ -189,12 +200,33 @@ $(function() {
 		chart.draw(data, options);
 	}
 
+	function drawPieChart5() {
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Religion');
+		data.addColumn('number', 'Coming to Islam');
+		data.addRows(newtoIslam);
+
+		var options = {
+			is3D: true,
+			title:'Coming to Islam',
+			titleTextStyle: {
+				fontSize: 20
+			},
+			legend: {position: 'bottom', alignment: 'center', textStyle: {color: '#2c3e50', fontSize: 12}}
+		};
+
+		var chart = new google.visualization.PieChart(document.getElementById('piechart5'));
+		chart.draw(data, options);
+	}
+
 	$(window).resize(function(){
 		drawWorldMap();
 		drawPieChart1();
 		drawPieChart2();
 		drawPieChart3();
 		drawPieChart4();
+		drawPieChart5();
 	});
 });
 
