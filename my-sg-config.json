@@ -1,6 +1,4 @@
 {
-	"interface":":4984",
-	"adminInterface":":4985",
     "log":["CRUD+", "REST+", "Changes+", "Attach+"],
     "databases": {
         "sync_gateway": {
