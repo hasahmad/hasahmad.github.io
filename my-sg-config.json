@@ -1,10 +1,35 @@
+#{
+#  "log": ["*"],
+#  "databases": {
+#    "db": {
+#      "server": "http://couchbase-server:8091",
+#      "bucket": "default",
+#      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } }
+#    }
+#  }
+#}
+
 {
-  "log": ["*"],
-  "databases": {
-    "db": {
-      "server": "http://couchbase-server:8091",
-      "bucket": "default",
-      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } }
+	"interface":":4984",
+	"adminInterface":"0.0.0.0:4985",
+    "log":["CRUD+", "REST+", "Changes+", "Attach+"],
+    "databases": {
+        "sync_gateway": {
+            "server": "http://couchbase-server:8091",
+            "sync":`function(doc) {channel(doc.channels);}`,
+            "bucket": "default",
+            "users": {
+                "GUEST": {
+                    "disabled": false,
+                    "admin_channels": ["*"]
+                }
+            }
+        }
+    },
+    "CORS": {
+        "Origin": ["https://hasahmad.github.io/ng2Ask"],
+        "LoginOrigin": ["https://hasahmad.github.io/ng2Ask"],
+        "Headers": ["Content-Type"],
+        "MaxAge": 17280000
     }
-  }
 }
