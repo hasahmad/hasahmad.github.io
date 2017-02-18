@@ -1,14 +1,3 @@
-#{
-#  "log": ["*"],
-#  "databases": {
-#    "db": {
-#      "server": "http://couchbase-server:8091",
-#      "bucket": "default",
-#      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } }
-#    }
-#  }
-#}
-
 {
 	"interface":":4984",
 	"adminInterface":"0.0.0.0:4985",
